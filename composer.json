@@ -37,6 +37,10 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+        ],
+        // 自定义添加
+        "files": [
+            "app/helpers.php"
         ]
     },
     "autoload-dev": {
