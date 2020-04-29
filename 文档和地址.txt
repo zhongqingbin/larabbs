@@ -1,3 +1,15 @@
 
 C:\Windows\System32\Drivers\etc\hosts
 
+LaraBBS学习:
+https://learnku.com/users/25957
+760174781@qq.com
+apple96
+
+
+artisan命令
+查看路由: php artisan api:routes
+先创建一个 Request 的基类: php artisan make:request Api/FormRequest
+
+
+访问地址: larabbs.test

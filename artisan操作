@@ -1,0 +1,10 @@
+
+0、创建自己的辅助函数
+touch app/helpers.php
+
+1、创建控制器
+php artisan make:controller PagesController
+
+2、将废弃的主页视图删除
+rm resources/views/welcome.blade.php
+
