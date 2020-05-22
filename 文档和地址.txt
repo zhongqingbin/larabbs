@@ -11,5 +11,7 @@ artisan命令
 查看路由: php artisan api:routes
 先创建一个 Request 的基类: php artisan make:request Api/FormRequest
 
+npm 运行
+npm run watch-poll
 
 访问地址: larabbs.test
