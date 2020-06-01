@@ -15,3 +15,10 @@ npm 运行
 npm run watch-poll
 
 访问地址: larabbs.test
+
+我们将以第三方扩展包 mews/captcha 作为基础来实现 Laravel 中的验证码功能。
+composer require "mews/captcha:~3.0"
+如果运行报错,可先执行 composer install --ignore-platform-reqs 或者 composer update --ignore-platform-reqs
+
+运行以下命令生成配置文件 config/captcha.php
+php artisan vendor:publish --provider='Mews\Captcha\CaptchaServiceProvider'
