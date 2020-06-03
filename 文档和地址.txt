@@ -22,3 +22,7 @@ composer require "mews/captcha:~3.0"
 
 运行以下命令生成配置文件 config/captcha.php
 php artisan vendor:publish --provider='Mews\Captcha\CaptchaServiceProvider'
+
+
+
+http://larabbs.test/email/verify/5/0901bca2039cb67e3f122f3d9c8b58b042ce7802?expires=1591183111&signature=29d6bb636643d909d2ff2bc93626c6544584094375cbdb62ba92cc4603830357
