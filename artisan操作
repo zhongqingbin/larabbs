@@ -9,11 +9,10 @@ php artisan make:controller PagesController
 rm resources/views/welcome.blade.php
 
 
-
-
-
-
 3、执行迁移
 php artisan make:migration add_weixin_session_key_to_users_table --table=users
 
 php artisan migrate
+
+接下来我们使用命令行来生成此监听器：
+php artisan event:generate
