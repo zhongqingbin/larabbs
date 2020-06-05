@@ -4,6 +4,7 @@ touch app/helpers.php
 
 1、创建控制器
 php artisan make:controller PagesController
+php artisan make:controller UsersController
 
 2、将废弃的主页视图删除
 rm resources/views/welcome.blade.php
@@ -16,6 +17,8 @@ php artisan migrate
 
 接下来我们使用命令行来生成此监听器：
 php artisan event:generate
+
+
 
 
 4、进入Tinker
