@@ -16,3 +16,7 @@ php artisan migrate
 
 接下来我们使用命令行来生成此监听器：
 php artisan event:generate
+
+
+4、进入Tinker
+php artisan tinker

@@ -9,6 +9,7 @@ class PagesController extends Controller
 
     public function root()
     {
+        // 往闪存里写入
         /*session()->flash('success', 'This is a success alert—check it out!');
         session()->flash('danger', 'This is a danger alert—check it out!');
         session()->flash('warning', 'This is a warning alert—check it out!');
