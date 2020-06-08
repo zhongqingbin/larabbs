@@ -19,7 +19,9 @@ php artisan migrate
 php artisan event:generate
 
 
-
-
 4、进入Tinker
 php artisan tinker
+
+获取配置信息
+php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravelRecent"
+
