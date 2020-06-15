@@ -6,6 +6,8 @@ https://learnku.com/users/25957
 760174781@qq.com
 apple96
 
+Nginx
+try_files $uri $uri/ /index.php?$query_string;
 
 artisan命令
 查看路由: php artisan api:routes
