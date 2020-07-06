@@ -28,3 +28,6 @@ php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLa
 创建授权策略类
 php artisan make:policy UserPolicy
 
+5、配置 HTMLPurifier for Laravel
+php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"
+
