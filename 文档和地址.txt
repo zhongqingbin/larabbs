@@ -36,8 +36,8 @@ http://larabbs.test/email/verify/5/0901bca2039cb67e3f122f3d9c8b58b042ce7802?expi
 7.1 使用 Supervisor 进程工具进行管理，配置和使用请参照 文档 进行配置；
 7.2 每一次部署代码时，需 artisan horizon:terminate 然后再 artisan horizon 重新加载代码。
 
-
-
+Laravel填充数据Seeder出现Target class does not exist.
+运行 composer dump-autoload
 
 
 
