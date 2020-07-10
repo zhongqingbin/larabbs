@@ -31,3 +31,14 @@ php artisan make:policy UserPolicy
 5、配置 HTMLPurifier for Laravel
 php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"
 
+Artisan 命令来生成一个新的队列任务
+php artisan make:job TranslateSlug
+开始之前，我们需要在命令行启动队列系统，队列在启动完成后会进入监听状态：
+php artisan queue:listen
+
+vendor:publish Artisan 命令发布相关文件
+php artisan vendor:publish --provider="Laravel\Horizon\HorizonServiceProvider"
+
+
+
+

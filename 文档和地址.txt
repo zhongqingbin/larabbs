@@ -16,6 +16,8 @@ artisan命令
 npm 运行
 npm run watch-poll
 
+npm install,npm run production 生成文件的
+
 访问地址: larabbs.test
 
 我们将以第三方扩展包 mews/captcha 作为基础来实现 Laravel 中的验证码功能。
@@ -28,3 +30,16 @@ php artisan vendor:publish --provider='Mews\Captcha\CaptchaServiceProvider'
 
 
 http://larabbs.test/email/verify/5/0901bca2039cb67e3f122f3d9c8b58b042ce7802?expires=1591183111&signature=29d6bb636643d909d2ff2bc93626c6544584094375cbdb62ba92cc4603830357
+
+
+7. 线上部署须知
+7.1 使用 Supervisor 进程工具进行管理，配置和使用请参照 文档 进行配置；
+7.2 每一次部署代码时，需 artisan horizon:terminate 然后再 artisan horizon 重新加载代码。
+
+
+
+
+
+
+
+
