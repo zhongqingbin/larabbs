@@ -10,6 +10,7 @@ use App\Models\Category;
 use Auth;
 use App\Handlers\ImageUploadHandler;
 
+
 class TopicsController extends Controller
 {
     public function __construct()
@@ -33,7 +34,8 @@ class TopicsController extends Controller
         if ( ! empty($topic->slug) && $topic->slug != $request->slug) {
             return redirect($topic->link(), 301);
         }
-        return view('topics.show', compact('topic'));
+        $replies  = $topic->replies();
+        return view('topics.show', compact('topic', 'replies'));
     }
 
 	public function create(Topic $topic)
